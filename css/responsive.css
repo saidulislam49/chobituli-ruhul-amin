@@ -1,0 +1,447 @@
+@media(min-width: 992px) and (max-width: 1199px) {
+
+}
+
+
+/*---------------------------------------------------
+-------------------  Medium device ------------------
+----------------------------------------------------*/
+
+@media(min-width: 768px) and (max-width: 991px) {
+    /* banner part start */
+    button.navbar-toggler{
+        border: 0;
+    }
+    #my_nav ul li{
+        text-align: center;
+    }
+    #my_nav ul li a {
+        font-size: 17px;
+        padding: 10px 25px;
+        color: #fff;
+    }
+    #my_nav ul li a:hover,
+    #my_nav ul li.active a{
+        color: #000;
+    }
+    .custom_nav{
+        background-color: #fff;
+        padding: 10px 20px 10px 10px;
+    }
+    #my_nav{
+        margin: 10px -20px -10px -10px;
+        background-color: #ff7200;
+        padding: 10px 0;
+    }
+    a.navbar-brand img{
+        height: 40px;
+    }
+    .banner_content h2 span.first_part,
+    .banner_content h2 span.second_part {
+        font-size: 35px;
+    }
+    .banner_content a.banner_button {
+        font-size: 15px;
+        padding: 7px 15px;
+        margin-bottom: 20px;
+        display: inline-block;
+    }
+    .banner_content {
+        padding: 45px 0;
+    }
+
+    /* about part start */
+    .about {
+        padding: 40px 0 50px;
+    }
+    .section_title h2 {
+        font-size: 40px;
+    }
+    .about .description p {
+        padding: 0;
+        font-size: 16px;
+        line-height: 30px;
+    }
+    .custom_button {
+        padding: 6px 20px;
+        font-size: 15px;
+    }
+    /* portfolio part start */
+    .portfolio {
+        padding: 30px 0;
+    }
+    .portfolio_images ul li.nav-item {
+        width: 30%;
+        border: 1px solid #ff7200;
+        margin: 5px;
+        padding: 5px;
+        text-align: center;
+    }
+    .custom_tab_content {
+        margin-top: 20px;
+    }
+    .single_column .long,
+    .single_column .long img,
+    .single_column .short img,
+    .single_column .short{
+        height: auto;
+    }
+
+    /* client review part start */
+    .client_review {
+        padding: 30px 0 80px;
+    }
+    .client_image {
+        margin: 30px 0;
+    }
+    .client_details h2 {
+        font-size: 20px;
+    }
+    .client_details p {
+        font-size: 16px;
+    }
+    .client_experience {
+        margin-left: 0;
+        padding-top: 15px;
+    }
+    .client_experience .section_title{
+        display: none;
+    }
+    .client_experience p {
+        font-size: 16px;
+        color: #ff6f01;
+        padding-left: 15px;
+        line-height: 30px;
+    }
+    .client_review .container .owl-nav {
+        bottom: 0px;
+        left: 50%;
+        transform: translateX(-50%);
+    }
+
+}
+
+/*---------------------------------------------------
+-------------------  Small device ------------------
+----------------------------------------------------*/
+
+@media(min-width: 576px) and (max-width: 767px) {
+    /* banner part start */
+    button.navbar-toggler{
+        border: 0;
+    }
+    #my_nav ul li{
+        text-align: center;
+    }
+    #my_nav ul li a {
+        font-size: 17px;
+        padding: 10px 25px;
+        color: #fff;
+    }
+    #my_nav ul li a:hover,
+    #my_nav ul li.active a{
+        color: #000;
+    }
+    .custom_nav{
+        background-color: #fff;
+        padding: 10px 20px 10px 10px;
+    }
+    #my_nav{
+        margin: 10px -20px -10px -10px;
+        background-color: #ff7200;
+        padding: 10px 0;
+    }
+    a.navbar-brand img{
+        height: 40px;
+    }
+    .banner_content h2 span.first_part,
+    .banner_content h2 span.second_part {
+        font-size: 35px;
+    }
+    .banner_content a.banner_button {
+        font-size: 15px;
+        padding: 7px 15px;
+        margin-bottom: 20px;
+        display: inline-block;
+    }
+    .banner_content {
+        padding: 45px 0;
+    }
+
+
+    /* about part start */
+    .about {
+        padding: 40px 0 50px;
+    }
+    .section_title h2 {
+        font-size: 35px;
+    }
+    .about .description p {
+        padding: 0;
+        font-size: 16px;
+        line-height: 30px;
+    }
+    .custom_button {
+        padding: 6px 20px;
+        font-size: 15px;
+    }
+
+    /* portfolio part start */
+    .portfolio {
+        padding: 30px 0;
+    }
+    .portfolio_images ul li.nav-item {
+        width: 30%;
+        border: 1px solid #ff7200;
+        margin: 5px;
+        padding: 5px;
+        text-align: center;
+    }
+    .custom_tab_content {
+        margin-top: 20px;
+    }
+    .single_column .long,
+    .single_column .long img,
+    .single_column .short img,
+    .single_column .short{
+        height: auto;
+    }
+
+
+    /* client review part start */
+    .client_review {
+        padding: 30px 0 80px;
+    }
+    .client_image {
+        margin: 30px;
+    }
+    .client_experience {
+        margin-left: 0;
+        text-align: center;
+        padding-top: 15px;
+    }
+    .client_experience .section_title{
+        display: none;
+    }
+    .client_experience p {
+        font-size: 16px;
+        color: #ff6f01;
+        line-height: 30px;
+    }
+    .client_review .container .owl-nav {
+        bottom: -45px;
+        left: 50%;
+        transform: translateX(-50%);
+    }
+
+    .freelancer_details,
+    .work_sample{
+        padding-top: 30px;
+        text-align: center;
+    }
+
+}
+
+
+
+/*---------------------------------------------------
+-------------------  Extra Small device -------------
+----------------------------------------------------*/
+
+@media (max-width: 575px) {
+    /* banner part start */
+    button.navbar-toggler{
+        border: 0;
+    }
+    #my_nav ul li{
+        text-align: center;
+    }
+    #my_nav ul li a {
+        font-size: 17px;
+        padding: 10px 25px;
+        color: #fff;
+    }
+    #my_nav ul li a:hover,
+    #my_nav ul li.active a{
+        color: #000;
+    }
+    .custom_nav{
+        background-color: #fff;
+        padding: 10px 20px 10px 10px;
+    }
+    #my_nav{
+        margin: 10px -20px -10px -10px;
+        background-color: #ff7200;
+        padding: 10px 0;
+    }
+    a.navbar-brand img{
+        height: 40px;
+    }
+    .banner_content h2 span.first_part,
+    .banner_content h2 span.second_part {
+        font-size: 35px;
+    }
+    .banner_content a.banner_button {
+        font-size: 15px;
+        padding: 7px 15px;
+        margin-bottom: 20px;
+        display: inline-block;
+    }
+    .banner_content {
+        padding: 45px 0;
+    }
+
+    /* about part start */
+    .about {
+        padding: 40px 0 50px;
+    }
+    .section_title h2 {
+        font-size: 25px;
+    }
+    .about .description p {
+        padding: 0;
+        font-size: 16px;
+        line-height: 30px;
+    }
+    .custom_button {
+        padding: 6px 20px;
+        font-size: 15px;
+    }
+
+    /* portfolio part start */
+    .portfolio {
+        padding: 30px 0;
+    }
+    .portfolio_images ul li.nav-item {
+        width: 40%;
+        border: 1px solid #ff7200;
+        margin: 5px;
+        padding: 5px;
+        text-align: center;
+    }
+    .custom_tab_content {
+        margin-top: 20px;
+    }
+    .single_column .long,
+    .single_column .long img,
+    .single_column .short img,
+    .single_column .short{
+        height: auto;
+    }
+
+    /* client review part start */
+    .client_review {
+        padding: 30px 0 80px;
+    }
+    .client_image {
+        margin: 30px;
+    }
+    .client_experience {
+        margin-left: 0;
+        text-align: center;
+        padding-top: 15px;
+    }
+    .client_experience .section_title{
+        display: none;
+    }
+    .client_experience p {
+        font-size: 16px;
+        color: #ff6f01;
+        line-height: 30px;
+    }
+    .client_review .container .owl-nav {
+        bottom: -45px;
+        left: 50%;
+        transform: translateX(-50%);
+    }
+
+    /* blog part start */
+    .blog {
+        padding: 30px 0;
+    }
+    .single_blog .blog_details_short h2{
+        text-align: center;
+        margin-bottom: 0;
+    }
+    .single_blog .blog_details_short h2 a {
+        font-size: 18px;
+    }
+    .single_blog .blog_details_short p{
+        text-align: center;
+        margin-top: 15px;
+    }
+    .like_comment span {
+        font-size: 12px;
+    }
+    .like_comment i {
+        font-size: 14px;
+    }
+    /* hire part start */
+    .hire {
+        padding: 30px 0 20px;
+    }
+    /* team part start */
+    .team {
+        padding: 30px 0;
+    }
+    .mb-60{
+        margin-bottom: 0;
+    }
+
+
+    /* registration page responsive code start */
+    .banner_content h2 {
+        font-size: 45px;
+    }
+    h2.step_title {
+        font-size: 25px;
+    }
+
+    /* inner page banner */
+    .inner .banner_content {
+        padding: 50px 0;
+    }
+    .inner .banner_content h2 {
+        font-size: 26px;
+    }
+
+    /* profile for visitor page */
+    .profile_details{
+        text-align: center;
+    }
+    .profile_details h2 {
+        font-size: 30px;
+    }
+    .profile_details p i {
+        font-size: 20px;
+        padding: 10px 3px;
+    }
+    .profile_details table{
+        margin-top: 15px;
+    }
+    .profile_details table,
+    .profile_details table td {
+        border: 1px solid #ff7200;
+    }
+    .profile_details p {
+        font-size: 14px;
+    }
+    .expert_portfolio{
+        margin-top: 20px;
+    }
+
+    /* hire v2 */
+    .freelancer_details,
+    .work_sample{
+        padding-top: 30px;
+        text-align: center;
+    }
+    .banner_content h2{
+         line-height: 40px;
+    }
+    .banner_content h2 small
+    {
+        font-size: 18px;
+    }
+}
+

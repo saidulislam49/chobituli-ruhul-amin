@@ -1,0 +1,229 @@
+.hire{
+    padding: 60px 0 30px;
+    background-color: #1e1e1e;
+}
+.single_photographer{
+    margin-bottom: 30px;
+}
+.client_image{
+    margin: 20px;
+}
+.photogropher_short_details h2{
+    font-weight: 400;
+    font-size: 20px;
+}
+.photogropher_short_details p{
+    font-weight: 300;
+    font-size: 14px;
+}
+.photogropher_short_details i{
+    color: yellow;
+    margin: 10px 0 13px;
+}
+.hire .team_contact{
+    opacity: 1;
+    bottom: 0;
+}
+
+/* filter bar */
+.filter_bar{
+    padding: 15px;
+}
+.nstSlider{
+    width: 100%;
+}
+.nstSlider .bar {
+    background: #ff7200;
+    top: 0;
+}
+.nstSlider .rightGrip,
+.nstSlider .leftGrip {
+    width: 20px;
+    height: 20px;
+    background: #ff7200;
+    top: -6px;
+}
+.nstSlider {
+    background: #fff;
+    height: 8px;
+    margin-top: 10px;
+}
+
+p.filter_title{
+    color: #ff7200;
+    margin-bottom: 15px;
+    font-family: 'Montserrat', sans-serif;
+}
+.budget_input{
+    margin-top: 10px;
+}
+.budget_input input:focus,
+.budget_input input{
+    font-size: 18px;
+    background-color: transparent;
+    color: #ff7200;
+    box-shadow: none;
+    text-align: center;
+    border-color: #ff7200;
+}
+.filter_by_area{
+    padding-top: 30px;
+}
+
+/* hire v2 start */
+.freelancer_short_profile{
+    margin-bottom: 30px;
+}
+.freelancer_image{
+    overflow: hidden;
+    border: 3px solid #aebcb9;
+}
+.freelancer_image img{
+    width: 100%;
+}
+
+.freelancer_details h2 a{
+    font-weight: 400;
+    font-size: 30px;
+    font-family: 'Montserrat', sans-serif;
+    color: #ff7200;
+    margin-bottom: 15px;
+}
+.ratings {
+    margin-bottom: 15px;
+}
+.ratings span{
+    color: #fff;
+    background-color: #ff7200;
+    padding: 3px 12px;
+    margin-right: 5px;
+    display: inline-block;
+    border-radius: 3px;
+    font-size: 18px;
+    font-family: 'Montserrat', sans-serif;
+}
+.freelancer_details .ratings i{
+    color: yellow;
+    margin: 0 2px;
+}
+.freelancer_details p{
+    font-size: 18px;
+    font-family: 'Montserrat', sans-serif;
+    color: #fff;
+    line-height: 30px;
+}
+.place_order_button a,
+.freelancer_details a.cart_button{
+    padding: 7px 15px;
+    display: inline-block;
+    border: 1px solid #ff7200;
+    color: #ff7200;
+    margin-top: 15px;
+    border-radius: 3px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 400;
+    margin-right: 10px;
+    text-transform: uppercase;
+    transition: .5s;
+}
+.place_order_button a:hover,
+.freelancer_details a.cart_button:hover{
+    background-color: #ff7200;
+    color: #fff;
+}
+.work_sample img{
+    width: 100%;
+}
+
+.inner .banner_content a.edit_profile{
+    background-color: #ff7200;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 20px;
+    margin-top: 30px;
+    display: inline-block;
+    transition: .5s;
+    padding: 7px 15px;
+    color: #000;
+}
+.inner .banner_content a.edit_profile:hover{
+    color: #ff7200;
+    background-color: #000;
+}
+
+/* modal design */
+.modal {
+    background: rgba(0,0,0,.5);
+}
+.modal-content {
+    border-radius: 0;
+}
+.modal-header {
+    border-top-left-radius: 0;
+    border-top-right-radius: 0;
+    background: #ff7200;
+    border-bottom: 0;
+}
+.modal-body {
+    padding: 1rem;
+    background: black;
+    border-left: 1px solid #ff7200;
+    border-right: 1px solid #ff7200;
+}
+.modal-footer {
+    border-top: 0;
+    border-bottom-right-radius: 0;
+    border-bottom-left-radius: 0;
+    background: #ff7200;
+}
+.modal-title {
+    font-family: 'Playfair Display', serif;
+   font-size: 18px;
+    color: black;
+    font-weight: 700;
+}
+#search label{
+    color: #fff;
+    font-size: 16px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 300;
+}
+#search .form-group{
+    margin-bottom: 30px;
+}
+#search .form-group:last-child{
+    margin-bottom: 10px;
+}
+#search input,
+#search select{
+    background-color: transparent;
+    border-radius: 0;
+    border: 0;
+    border-bottom: 1px solid #444;
+    font-size: 16px;
+    font-family: 'Montserrat', sans-serif;
+    color: #ff7200;
+}
+#search select:focus,
+#search input:focus{
+    background-color: transparent;
+    outline: 0;
+    border: 0;
+    border-bottom: 1px solid #ff7200;
+    box-shadow: none;
+    color: #ff7200;
+}
+#search .modal-sm{
+    max-width: 400px !important;
+}
+button.search_button{
+    display: inline-block;
+    padding: 5px 10px;
+    border: 1px solid black;
+    color: #000;
+    background-color: transparent;
+    font-family: 'Montserrat', sans-serif;
+
+}
+.modal-header .close {
+    font-size: 24px;
+}

@@ -1,0 +1,633 @@
+/*
+Chobituli.com
+Author: Ruhul Amin
+Author URI: https://ruhul-amin.info/
+Verson: 1.0.0
+
+=====Table of Content=====
+1. banner and menu part
+2. about us part
+3. portfolio part
+4. client review
+5. blog part
+6. hire part
+7. team part
+8. footer contact part
+9. copyright text part
+
+*/
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+p{
+    margin-bottom: 0;
+}
+ul,ol{
+    list-style-type: none;
+}
+button:focus,
+a,
+a:hover,
+a:active,
+a:focus,
+a:visited{
+    text-decoration: none;
+    outline: 0;
+}
+.mb-30{
+    margin-bottom: 30px;
+}
+h1, h2, h3{
+    padding: 0;
+}
+
+
+/*================== banner and menu part start ==================*/
+.banner{
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+/* nav bar start */
+.custom_nav{
+    border-bottom: 1px solid #626a5b;
+    padding: 0;
+}
+#my_nav ul li a{
+    color: #ff7200;
+    font-weight: 700;
+    font-size: 20px;
+    padding: 25px 20px;
+    font-family: 'Playfair Display', serif;
+    transition: .3s;
+}
+#my_nav ul li.active a,
+#my_nav ul li:hover a{
+    color: #fff;
+}
+#my_nav ul li a.cart_item i{
+    position: relative;
+}
+#my_nav ul li a.cart_item i span{
+    position: absolute;
+    top: -22px;
+    right: -22px;
+    height: 25px;
+    width: 25px;
+    line-height: 25px;
+    text-align: center;
+    background-color: #000;
+    border: 1px solid #ff7200;
+    color: #ff7200;
+    border-radius: 50%;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 300;
+    font-size: 14px;
+}
+/* banner content start */
+.banner_content{
+    padding: 200px 0;
+}
+.banner_content h2 span{
+    display: block;
+    font-family: 'Playfair Display', serif;
+}
+.banner_content h2 span.first_part{
+    color: #ff7200;
+    font-size: 70px;
+    font-weight: 400;
+}
+.banner_content h2 span.second_part{
+    color: #fff;
+    font-size: 75px;
+    font-weight: 700;
+    margin-bottom: 30px;
+}
+.banner_content a.banner_button{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 20px;
+    padding: 10px 30px;
+    border: 2px solid #ff7200;
+    margin-right: 20px;
+    text-transform: capitalize;
+    color: #000;
+    transition: .5s;
+    background-color: #ff7200;
+}
+.banner_content a.second_button,
+.banner_content a.banner_button:hover{
+    background-color: #000;
+    color: #ff7200;
+}
+.banner_content a.second_button:hover{
+    background-color: #ff7200;
+    color: #000;
+}
+
+/*================== banner and menu part end ==================*/
+
+
+/*================== about us part start ==================*/
+.about{
+    padding: 50px 0 70px;
+}
+.section_title h2{
+    color: #ff7200;
+    font-size: 50px;
+    font-weight: 700;
+    margin-bottom: 30px;
+    font-family: 'Playfair Display', serif;
+}
+.about .description p{
+    color: #fff;
+    padding: 0 150px;
+    font-size: 25px;
+    line-height: 36px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 300;
+    margin-bottom: 30px;
+}
+.custom_button{
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 500;
+    text-transform: uppercase;
+    padding: 10px 30px;
+    font-size: 20px;
+    border-radius: 30px;
+    color: #ff7200;
+    border: 1px solid #ff7200;
+    display: inline-block;
+    transition: .5s;
+}
+.custom_button:hover{
+    background-color: #ff7200;
+    color: #fff;
+}
+/*================== about us part end ==================*/
+
+/*================== portfolio part start ==================*/
+.portfolio{
+    padding: 50px 0;
+    background-color: #1e1e1e;
+}
+.custom_tab_content{
+    margin-top: 50px;
+}
+ul.custom_tab{
+   display: flex;
+    justify-content: center;
+}
+.custom_tab .nav-link{
+    color: #ff7200;
+    font-weight: 700;
+    font-family: 'Playfair Display', serif;
+    font-size: 18px;
+    padding: 0 13px;
+}
+.custom_tab .nav-link.active{
+    background-color: transparent;
+    color: #fff;
+}
+.single_column .short,
+.single_column .long{
+    background-color: yellow;
+    margin-bottom: 30px;
+    overflow: hidden;
+    box-shadow: 0 20px 22px -6px black;
+}
+.single_column .short img{
+    height: auto;
+    width: 100%;
+    min-height: 100%;
+}
+.single_column .long img{
+    height: 100%;
+    min-width: 100%;
+    width: auto;
+}
+.single_column .long{
+    height: 470px;
+}
+.single_column .short{
+    height: 220px;
+}
+.single_column .short,
+.single_column .long{
+    position: relative;
+}
+.single_column .short span,
+.single_column .long span{
+    position: absolute;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
+.single_column .short::before,
+.single_column .long::before{
+    border-top: 5px solid #000;
+    border-bottom: 5px solid #000;
+    transform: scale(0,1);
+}
+
+.single_column .short::after,
+.single_column .long::after{
+    border-right: 5px solid #000;
+    border-left: 5px solid #000;
+    transform: scale(1,0);
+}
+.single_column .short::before,
+.single_column .long::before,
+.single_column .short::after,
+.single_column .long::after{
+    position: absolute;
+    top: 15px;
+    left: 15px;
+    right: 15px;
+    bottom: 15px;
+    content: '';
+    transition: .5s;
+    z-index: 0;
+    opacity: 0;
+    background-color: rgba(255,255,255,.2);
+    outline: 15px solid #ff7200;
+}
+.single_column .short:hover::before,
+.single_column .long:hover::before,
+.single_column .short:hover::after,
+.single_column .long:hover::after{
+    transform: scale(1);
+    opacity: 1;
+}
+/*================== portfolio part end ==================*/
+
+/*================== client review start ==================*/
+.client_review{
+    padding: 60px 0;
+}
+.client_image img{
+    width: 100%;
+}
+.client_image {
+    position: relative;
+    margin-bottom: 30px;
+}
+.client_image span::before,
+.client_image span::after{
+    position: absolute;
+    content: '';
+    width: 30%;
+    height: 30%;
+    transition: .5s;
+}
+.client_image span.top_left::after{
+    top: -10px;
+    left: -10px;
+    border-left: 3px solid #fff;
+    border-top: 3px solid #fff;
+}
+.client_image span.top_left::before{
+    bottom: -10px;
+    right: -10px;
+    border-bottom: 3px solid #fff;
+    border-right: 3px solid #fff;
+}
+.client_image span.top_right::after{
+    top: -10px;
+    right: -10px;
+    border-right: 3px solid #fff;
+    border-top: 3px solid #fff;
+}
+.client_image span.top_right::before{
+    bottom: -10px;
+    left: -10px;
+    border-bottom: 3px solid #fff;
+    border-left: 3px solid #fff;
+}
+.client_image:hover span::before,
+.client_image:hover span::after{
+    width: calc(50% + 10px);
+    height: calc(50% + 10px);
+    border-color: #ff7200;
+}
+.client_review .container .row{
+    padding-top: 30px;
+}
+.client_details h2{
+    font-size: 25px;
+    font-family: 'Montserrat', sans-serif;
+    color: #ff7200;
+    font-weight: 600;
+}
+.client_details p{
+    font-size: 18px;
+    font-weight: 300;
+    font-family: 'Montserrat', sans-serif;
+    color: #fff;
+}
+.client_experience{
+    margin-left: 50px;
+}
+.client_experience p{
+    font-size: 20px;
+    font-weight: 300;
+    font-family: 'Montserrat', sans-serif;
+    color: #fff;
+}
+.client_review .container{
+    position: relative;
+}
+.client_review .container .owl-nav{
+    position: absolute;
+    bottom: 30px;
+    left: 35%;
+}
+.client_review .container .owl-nav button{
+    margin:  0 20px;
+}
+.client_review .container .owl-nav button i{
+    color: #ff7200;
+    font-size: 30px;
+}
+/*================== client review end ==================*/
+
+
+/*================== blog part start ==================*/
+.blog{
+    padding: 50px 0;
+    background-color: #1e1e1e;
+}
+.single_blog{
+    background-color: #484848;
+    margin-bottom: 30px;
+    box-shadow: 0 8px 6px -6px black;
+    transition: .5s;
+}
+.single_blog:hover{
+    margin-top: -5px;
+    box-shadow: 0 15px 6px -6px black;
+}
+.single_blog .thumbnail{
+    max-height: 255px;
+    overflow: hidden;
+}
+.single_blog .thumbnail img{
+    width: 100%;
+    transition: .5s;
+}
+.single_blog:hover .thumbnail img{
+    transform: scale(1.2,1.2);
+}
+.single_blog .blog_details_short{
+    padding: 35px 20px 20px;
+    position: relative;
+}
+.single_blog .blog_details_short .date{
+    position: absolute;
+    left: 0;
+    top: 0;
+    padding: 10px 20px;
+    background-color: #ff7200;
+    color: #fff;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 300;
+    transform: translateY(-50%);
+    box-shadow: -6px 6px 6px -6px black;
+}
+.single_blog .blog_details_short .date::after
+{
+    position: absolute;
+    content: "";
+    bottom: -14px;
+    right: 6px;
+    border-color: transparent black;
+    border-style: solid;
+    border-width: 10px 10px 10px 0px;
+    height: 0px;
+    width: 0px;
+    transform: rotate(45deg);
+}
+
+.single_blog .blog_details_short h2 a{
+    font-family: 'Playfair Display', serif;
+    color: #fff;
+    font-size: 25px;
+    margin-bottom: 10px;
+    transition: .5s;
+}
+
+.single_blog .blog_details_short h2 a:hover{
+    color: #ff7200;
+}
+.single_blog .blog_details_short p{
+    font-family: 'Montserrat', sans-serif;
+    color: #c1c1c1;
+    font-weight: 300;
+    font-size: 15px;
+}
+.like_comment{
+    border-top: 1px solid #3d3d3d;
+    padding: 15px 0;
+}
+.like_comment i{
+    color: #ff7200;
+    margin-right: 5px;
+}
+.like_comment span{
+    color: #fff;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 300;
+}
+/*================== blog part end ==================*/
+
+
+/*================== hire part start ==================*/
+.hire{
+    padding: 50px 0;
+}
+.hire_video{
+    box-shadow: 0 0 20px 0 black;
+    position: relative;
+    margin-bottom: 30px;
+}
+.hire_video img.play_icon{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    width: auto;
+    transition: .5s;
+}
+.hire_video:hover img.play_icon{
+    transform: translate(-50%,-50%) scale(1.2);
+}
+.hire_video img{
+    width: 100%;
+}
+/*================== hire part end ==================*/
+
+
+/*================== team part start ==================*/
+.team{
+    padding: 50px 0;
+    background-color: #1e1e1e;
+}
+.mb-60{
+    margin-bottom: 60px;
+}
+.client_image{
+    position: relative;
+}
+.client_image .team_contact{
+    position: absolute;
+    bottom: 20px;
+    left: 0;
+    background-color: rgba(0,0,0,.5);
+    padding: 15px 0;
+    width: 100%;
+    opacity: 0;
+    transition: .5s;
+}
+.client_details:hover .team_contact{
+    opacity: 1;
+    bottom: 0px;
+}
+.client_image .team_contact a{
+    height: 30px;
+    width: 30px;
+    transition: .5s;
+    line-height: 30px;
+    border: 1px solid #ff7200;
+    display: inline-block;
+    transform: rotate(45deg);
+}
+.client_image .team_contact a i{
+    color: #ff7200;
+    transform: rotate(-45deg);
+    transition: .5s;
+}
+
+.client_image .team_contact a.active i,
+.client_image .team_contact a:hover i{
+    color: #fff;
+}
+.client_image .team_contact a.active,
+.client_image .team_contact a:hover {
+    background-color: #ff7200;
+}
+/*================== team part end ==================*/
+
+
+/*================== footer contact part start ==================*/
+footer{
+    padding: 30px 0 40px;
+    background-color: #000;
+}
+.footer_about img{
+    margin-bottom: 20px;
+}
+.footer_about p{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 18px;
+    font-weight: 300;
+    color: #fff;
+    line-height: 28px;
+}
+footer .useful_link h2,
+footer .contact h2{
+    color: #ff7200;
+    font-family: 'Playfair Display', serif;
+    font-size: 27px;
+    margin-bottom: 20px;
+    padding-top: 20px;
+}
+.contact p,
+.useful_link ul li a{
+    color: #fff;
+    font-family: 'Playfair Display', serif;
+    font-size: 16px;
+    margin-bottom: 20px;
+    display: block;
+    position: relative;
+    transition: .5s;
+}
+.useful_link ul li:hover a{
+    color: #ff7200;
+}
+.useful_link ul li a::after{
+    position: absolute;
+    bottom: -10px;
+    content: '';
+    left: 0;
+    height: 1px;
+    width: 0;
+    background-color: #ff7200;
+    transition: .5s;
+}
+.useful_link ul li:hover a::after{
+    width: 100%;
+}
+.contact a i{
+    color: #fff;
+    height: 40px;
+    width: 40px;
+    text-align: center;
+    line-height: 40px;
+    margin: 0 7px;
+    border: 1px solid #fff;
+    transition: .5s;
+}
+.contact a i:hover{
+    background-color: #fff;
+    color: #ff7200;
+}
+/*================== footer contact part end ==================*/
+
+
+/*================== copyright text part start ==================*/
+.copyright{
+    padding: 20px 0;
+    border-top: 1px solid #222222;
+    text-align: center;
+    background-color: #000;
+}
+.copyright p{
+    color: #ff7200;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 14px;
+    font-weight: 300;
+}
+/*================== copyright text part end ==================*/
+
+
+/*================== inner page banner start ==================*/
+.banner_content h2{
+    font-family: 'Playfair Display', serif;
+    font-size: 70px;
+    font-weight: 700;
+    color: #ff7200;
+}
+.inner .banner_content{
+    padding: 100px 0;
+}
+/*================== inner page banner end ==================*/
+
+
+
+
+/*
+
+
+font-family: 'Playfair Display', serif;
+
+
+
+
+
+
+
+*/

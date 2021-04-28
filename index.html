@@ -1,0 +1,682 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>ছবি তুলি</title>
+    
+    <!-- Bootstrap -->
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+    
+    <!-- Fontawesome -->
+    <link href="css/fontawesome-all.min.css" rel="stylesheet">
+
+    <!-- google fonts -->
+    <link href="https://fonts.googleapis.com/css?family=Playfair+Display:400,700,900" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Modak" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Montserrat:100,200,300,400,500,600,700,800,900" rel="stylesheet">
+
+      <!-- jQuery Plugins css -->
+    <link rel="stylesheet" href="css/slick.css">
+    <link rel="stylesheet" href="plugins/Owl_carousel/assets/owl.carousel.min.css">
+    <link rel="stylesheet" href="plugins/Owl_carousel/assets/owl.theme.default.css">
+    <link href="plugins/animatedheadline/css/style.css" rel="stylesheet">
+    <link href="plugins/fancybox/fancybox.min.css" rel="stylesheet">
+
+    <!-- Main Css -->
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/responsive.css">
+  </head>
+  <body>
+  <!-- banner and menu part start -->
+  <section class="banner" style="background-image: url(images/banner.jpg)">
+      <!-- nav bar start -->
+      <nav class="navbar navbar-expand-lg navbar-light custom_nav">
+          <div class="container">
+              <a class="navbar-brand" href="#">
+                  <img src="images/logo.png" alt="">
+              </a>
+              <button class="navbar-toggler" id="toogle_button" type="button" data-toggle="collapse" data-target="#my_nav" aria-controls="my_nav" aria-expanded="false" aria-label="Toggle navigation">
+                  <img src="images/cancel.png" class="d-none" id="cancel" alt="">
+                  <img src="images/menu.png" id="menu" alt="">
+              </button>
+              <div class="collapse navbar-collapse" id="my_nav">
+                  <ul class="navbar-nav ml-auto">
+                      <li class="nav-item active"><a class="nav-link" href="#">Home</a></li>
+                      <li class="nav-item"><a class="nav-link" href="#">About</a></li>
+                      <li class="nav-item"><a class="nav-link" href="#">Photographer</a></li>
+                      <li class="nav-item"><a class="nav-link" href="#">Gallery</a></li>
+                      <li class="nav-item"><a class="nav-link" href="#">Blog</a></li>
+                      <li class="nav-item"><a class="nav-link" href="#">Contact</a></li>
+                      <li class="nav-item"><a class="cart_item nav-link" href="#"><i class="fas fa-shopping-cart"><span>3</span></i> </a></li>
+                  </ul>
+              </div>
+          </div>
+      </nav>
+      <!-- nav bar end -->
+
+      <!-- banner text start -->
+      <div class="container">
+          <div class="banner_content">
+              <h2 class="cd-headline slide">
+                  <span class="first_part cd-words-wrapper">
+                    <b class="is-visible">Looking for a</b>
+                    <b>Are you a</b>
+                  </span>
+              </h2>
+              <h2 class="cd-headline slide">
+                  <span class="second_part cd-words-wrapper">
+                    <b class="is-visible">Photographer?</b>
+                    <b>Photographer?</b>
+                  </span>
+              </h2>
+              <a href="" class="banner_button">Photographer</a>
+              <a href="" class="banner_button second_button">Photographer</a>
+          </div>
+      </div>
+      <!-- banner text end -->
+  </section>
+  <!-- banner and menu part end -->
+
+  <!-- about us part start -->
+  <section class="about">
+    <div class="container">
+        <div class="section_title">
+            <h2 class="text-center">Who are we actually?</h2>
+        </div>
+        <div class="description text-center">
+            <p>
+                We are Bangladesh’s first freelance photographers  marketplace.
+                Here anyone can hire a photographer in their perfect budget
+                limit. And it is the best place for  freelance photographers
+                to flourish their passion into profession.
+            </p>
+            <a href="" class="custom_button">Know More</a>
+        </div>
+    </div>
+  </section>
+  <!-- about us part end -->
+
+  <!-- portfolio part start -->
+  <section class="portfolio">
+      <div class="container">
+          <div class="section_title text-center">
+              <h2>Our Portfolio</h2>
+          </div>
+          <div class="portfolio_images">
+              <ul class="nav nav-pills mb-3 custom_tab" id="pills-tab" role="tablist">
+                  <li class="nav-item">
+                      <a class="nav-link active" id="pills-home-tab" data-toggle="pill" href="#pills-home" role="tab" aria-controls="pills-home" aria-selected="true">Wedding</a>
+                  </li>
+                  <li class="nav-item">
+                      <a class="nav-link" id="pills-profile-tab" data-toggle="pill" href="#pills-profile" role="tab" aria-controls="pills-profile" aria-selected="false">Function</a>
+                  </li>
+                  <li class="nav-item">
+                      <a class="nav-link" id="pills-contact-tab" data-toggle="pill" href="#pills-contact" role="tab" aria-controls="pills-contact" aria-selected="false">Fashion</a>
+                  </li>
+                  <li class="nav-item">
+                      <a class="nav-link" id="pills-contact-tab" data-toggle="pill" href="#pills-contact" role="tab" aria-controls="pills-contact" aria-selected="false">Utshob</a>
+                  </li>
+                  <li class="nav-item">
+                      <a class="nav-link" id="pills-contact-tab" data-toggle="pill" href="#pills-contact" role="tab" aria-controls="pills-contact" aria-selected="false">Ceremony</a>
+                  </li>
+                  <li class="nav-item">
+                      <a class="nav-link" id="pills-contact-tab" data-toggle="pill" href="#pills-contact" role="tab" aria-controls="pills-contact" aria-selected="false">Profile</a>
+                  </li>
+                  <li class="nav-item">
+                      <a class="nav-link" id="pills-contact-tab" data-toggle="pill" href="#pills-contact" role="tab" aria-controls="pills-contact" aria-selected="false">Graphical</a>
+                  </li>
+              </ul>
+              <div class="tab-content custom_tab_content" id="pills-tabContent">
+                  <div class="tab-pane fade show active" id="pills-home" role="tabpanel" aria-labelledby="pills-home-tab">
+                      <div class="row">
+                          <div class="col-md-6 col-lg-4">
+                              <div class="single_column">
+                                  <div class="long">
+                                      <a data-fancybox="gallery" href="images/portfolio/collected_1.jpg">
+                                          <span></span>
+                                          <img src="images/portfolio/thumb_collected_1.jpg">
+                                      </a>
+                                  </div>
+                                  <div class="short">
+                                      <a data-fancybox="gallery" href="images/portfolio/short_details_2.jpg">
+                                          <span></span>
+                                          <img src="images/portfolio/short_details_2.jpg" alt="">
+                                      </a>
+                                  </div>
+                                  <div class="short">
+                                      <a data-fancybox="gallery" href="images/portfolio/shot_details.jpg">
+                                          <span></span>
+                                          <img src="images/portfolio/short_thumb.jpg" alt="">
+                                      </a>
+                                  </div>
+                              </div>
+                          </div>
+                          <div class="col-md-6 col-lg-4">
+                              <div class="single_column">
+                                  <div class="short">
+                                      <a data-fancybox="gallery" href="images/portfolio/short_details_2.jpg">
+                                          <span></span>
+                                          <img src="images/portfolio/short_thumb_2.jpg" alt="">
+                                      </a>
+                                  </div>
+                                  <div class="long">
+                                      <a data-fancybox="gallery" href="images/portfolio/collected_2.jpg">
+                                          <span></span>
+                                          <img src="images/portfolio/thumb_collected_2.jpg">
+                                      </a>
+                                  </div>
+                                  <div class="short">
+                                      <a data-fancybox="gallery" href="images/portfolio/short_details_5.jpg">
+                                          <span></span>
+                                          <img src="images/portfolio/short_thumb_5.jpg" alt="">
+                                      </a>
+                                  </div>
+                              </div>
+                          </div>
+                          <div class="col-md-6 col-lg-4 d-none d-lg-block">
+                              <div class="single_column">
+                                  <div class="short">
+                                      <a data-fancybox="gallery" href="images/portfolio/short_details_3.jpg">
+                                          <span></span>
+                                          <img src="images/portfolio/short_thumb_3.jpg" alt="">
+                                      </a>
+                                  </div>
+                                  <div class="short">
+                                      <a data-fancybox="gallery" href="images/portfolio/short_details_4.jpg">
+                                          <span></span>
+                                          <img src="images/portfolio/short_thumb_4.jpg" alt="">
+                                      </a>
+                                  </div>
+                                  <div class="long">
+                                      <a data-fancybox="gallery" href="images/portfolio/thumb_collected_4.jpg">
+                                          <span></span>
+                                          <img src="images/portfolio/thumb_collected_4.jpg">
+                                      </a>
+                                  </div>
+                              </div>
+                          </div>
+                      </div>
+                  </div>
+                  <div class="tab-pane fade" id="pills-profile" role="tabpanel" aria-labelledby="pills-profile-tab">
+                      <div class="row">
+                          <div class="col-md-4">
+                              <div class="single_column">
+                                  <div class="short">
+                                      <a data-fancybox="gallery" href="images/portfolio/short_details_3.jpg">
+                                          <span></span>
+                                          <img src="images/portfolio/short_thumb_3.jpg" alt="">
+                                      </a>
+                                  </div>
+                                  <div class="short">
+                                      <a data-fancybox="gallery" href="images/portfolio/short_1.jpg">
+                                          <span></span>
+                                          <img src="images/portfolio/short_1.jpg" alt="">
+                                      </a>
+                                  </div>
+                                  <div class="long">
+                                      <a data-fancybox="gallery" href="images/portfolio/long_3.jpg">
+                                          <span></span>
+                                          <img src="images/portfolio/long_3.jpg">
+                                      </a>
+                                  </div>
+                              </div>
+                          </div>
+                          <div class="col-md-4">
+                              <div class="single_column">
+                                  <div class="short">
+                                      <a data-fancybox="gallery" href="images/portfolio/short_3.jpg">
+                                          <span></span>
+                                          <img src="images/portfolio/short_3.jpg" alt="">
+                                      </a>
+                                  </div>
+                                  <div class="long">
+                                      <a data-fancybox="gallery" href="images/portfolio/long_2.jpg">
+                                          <span></span>
+                                          <img src="images/portfolio/long_2.jpg">
+                                      </a>
+                                  </div>
+                                  <div class="short">
+                                      <a data-fancybox="gallery" href="images/portfolio/short_4.jpg">
+                                          <span></span>
+                                          <img src="images/portfolio/short_4.jpg" alt="">
+                                      </a>
+                                  </div>
+                              </div>
+                          </div>
+                          <div class="col-md-4">
+                              <div class="single_column">
+                                  <div class="long">
+                                      <a data-fancybox="gallery" href="images/portfolio/long_1.jpg">
+                                          <span></span>
+                                          <img src="images/portfolio/long_1.jpg">
+                                      </a>
+                                  </div>
+                                  <div class="short">
+                                      <a data-fancybox="gallery" href="images/portfolio/short_1.jpg">
+                                          <span></span>
+                                          <img src="images/portfolio/short_1.jpg" alt="">
+                                      </a>
+                                  </div>
+                                  <div class="short">
+                                      <a data-fancybox="gallery" href="images/portfolio/short_2.jpg">
+                                          <span></span>
+                                          <img src="images/portfolio/short_2.jpg" alt="">
+                                      </a>
+                                  </div>
+                              </div>
+                          </div>
+                      </div>
+                  </div>
+                  <div class="tab-pane fade" id="pills-contact" role="tabpanel" aria-labelledby="pills-contact-tab">
+                      <div class="row">
+                          <div class="col-md-4">
+                              <div class="single_column">
+                                  <div class="short">
+                                      <a data-fancybox="gallery" href="images/portfolio/short_2.jpg">
+                                          <span></span>
+                                          <img src="images/portfolio/short_2.jpg" alt="">
+                                      </a>
+                                  </div>
+                                  <div class="short">
+                                      <a data-fancybox="gallery" href="images/portfolio/short_1.jpg">
+                                          <span></span>
+                                          <img src="images/portfolio/short_1.jpg" alt="">
+                                      </a>
+                                  </div>
+                                  <div class="long">
+                                      <a data-fancybox="gallery" href="images/portfolio/long_3.jpg">
+                                          <span></span>
+                                          <img src="images/portfolio/long_3.jpg">
+                                      </a>
+                                  </div>
+                              </div>
+                          </div>
+                          <div class="col-md-4">
+                              <div class="single_column">
+                                  <div class="short">
+                                      <a data-fancybox="gallery" href="images/portfolio/short_3.jpg">
+                                          <span></span>
+                                          <img src="images/portfolio/short_3.jpg" alt="">
+                                      </a>
+                                  </div>
+                                  <div class="long">
+                                      <a data-fancybox="gallery" href="images/portfolio/long_2.jpg">
+                                          <span></span>
+                                          <img src="images/portfolio/long_2.jpg">
+                                      </a>
+                                  </div>
+                                  <div class="short">
+                                      <a data-fancybox="gallery" href="images/portfolio/short_4.jpg">
+                                          <span></span>
+                                          <img src="images/portfolio/short_4.jpg" alt="">
+                                      </a>
+                                  </div>
+                              </div>
+                          </div>
+                          <div class="col-md-4">
+                              <div class="single_column">
+                                  <div class="long">
+                                      <a data-fancybox="gallery" href="images/portfolio/long_1.jpg">
+                                          <span></span>
+                                          <img src="images/portfolio/long_1.jpg">
+                                      </a>
+                                  </div>
+                                  <div class="short">
+                                      <a data-fancybox="gallery" href="images/portfolio/short_1.jpg">
+                                          <span></span>
+                                          <img src="images/portfolio/short_1.jpg" alt="">
+                                      </a>
+                                  </div>
+                                  <div class="short">
+                                      <a data-fancybox="gallery" href="images/portfolio/short_2.jpg">
+                                          <span></span>
+                                          <img src="images/portfolio/short_2.jpg" alt="">
+                                      </a>
+                                  </div>
+                              </div>
+                          </div>
+                      </div>
+                  </div>
+              </div>
+          </div>
+      </div>
+  </section>
+  <!-- portfolio part end -->
+
+  <!-- client review start -->
+  <section class="client_review">
+      <div class="container d-lg-none">
+          <div class="section_title text-center">
+              <h2 class="mb-0">Client Experience</h2>
+          </div>
+      </div>
+      <div class="container owl-carousel client_slider">
+          <div class="row justify-content-center">
+            <div class="col-md-3">
+                <div class="client_details text-center">
+                    <div class="client_image">
+                        <span class="top_left"></span>
+                        <span class="top_right"></span>
+                        <img src="images/team/client.png" alt="">
+                    </div>
+                    <h2>Habib Khan</h2>
+                    <p>Web Developer</p>
+                </div>
+            </div>
+            <div class="col-md-8">
+                <div class="client_experience">
+                    <div class="section_title">
+                        <h2>Client Experience</h2>
+                    </div>
+                    <p>"It was really to get an expert photographer for my sister wedding event.
+                        At first I wasworried about gettinga photographer on time and within our budget but
+                        thank god we found Photo Kamla.  It was really easy to find a photographer and their
+                        professionalism impressed me. I would always recommend
+                        them to my friends"</p>
+                </div>
+            </div>
+          </div>
+          <div class="row justify-content-center">
+            <div class="col-md-3">
+                <div class="client_details text-center">
+                    <div class="client_image">
+                        <span class="top_left"></span>
+                        <span class="top_right"></span>
+                        <img src="images/team/client.png" alt="">
+                    </div>
+                    <h2>Habib Khan</h2>
+                    <p>Web Developer</p>
+                </div>
+            </div>
+            <div class="col-md-8">
+                <div class="client_experience">
+                    <div class="section_title">
+                        <h2>Client Experience</h2>
+                    </div>
+                    <p>"It was really to get an expert photographer for my sister wedding event.
+                        At first I wasworried about gettinga photographer on time and within our budget but
+                        thank god we found Photo Kamla.  It was really easy to find a photographer and their
+                        professionalism impressed me. I would always recommend
+                        them to my friends"</p>
+                </div>
+            </div>
+          </div>
+          <div class="row justify-content-center">
+            <div class="col-md-3">
+                <div class="client_details text-center">
+                    <div class="client_image">
+                        <span class="top_left"></span>
+                        <span class="top_right"></span>
+                        <img src="images/team/client.png" alt="">
+                    </div>
+                    <h2>Habib Khan</h2>
+                    <p>Web Developer</p>
+                </div>
+            </div>
+            <div class="col-md-8">
+                <div class="client_experience">
+                    <div class="section_title">
+                        <h2>Client Experience</h2>
+                    </div>
+                    <p>"It was really to get an expert photographer for my sister wedding event.
+                        At first I wasworried about gettinga photographer on time and within our budget but
+                        thank god we found Photo Kamla.  It was really easy to find a photographer and their
+                        professionalism impressed me. I would always recommend
+                        them to my friends"</p>
+                </div>
+            </div>
+          </div>
+      </div>
+  </section>
+  <!-- client review end -->
+
+  <!-- blog part start -->
+  <section class="blog">
+      <div class="container">
+          <div class="section_title text-center">
+              <h2>Our Latest Blogs</h2>
+          </div>
+          <div class="row blog_slider justify-content-center">
+              <div class="col-md-4">
+                  <div class="single_blog">
+                      <div class="thumbnail">
+                          <a href="">
+                              <img src="images/blog/01.jpg" alt="">
+                          </a>
+                      </div>
+                      <div class="blog_details_short">
+                          <div class="date">24 Feb 19</div>
+                          <h2>
+                              <a href="">Our awesome photography</a>
+                          </h2>
+                          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+                      </div>
+                      <div class="like_comment text-center row mx-0">
+                          <div class="col-6">
+                              <i class="far fa-heart"></i>
+                              <span>10 Likes</span>
+                          </div>
+                          <div class="col-6">
+                              <i class="far fa-comment"></i>
+                              <span>15 Comments</span>
+                          </div>
+                      </div>
+                  </div>
+              </div>
+              <div class="col-md-4">
+                  <div class="single_blog">
+                      <div class="thumbnail">
+                          <a href="">
+                              <img src="images/blog/02.jpg" alt="">
+                          </a>
+                      </div>
+                      <div class="blog_details_short">
+                          <div class="date">24 Feb 19</div>
+                          <h2>
+                              <a href="">Our awesome photography</a>
+                          </h2>
+                          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+                      </div>
+                      <div class="like_comment text-center row mx-0">
+                          <div class="col-6">
+                              <i class="far fa-heart"></i>
+                              <span>10 Likes</span>
+                          </div>
+                          <div class="col-6">
+                              <i class="far fa-comment"></i>
+                              <span>15 Comments</span>
+                          </div>
+                      </div>
+                  </div>
+              </div>
+              <div class="col-md-4">
+                  <div class="single_blog">
+                      <div class="thumbnail">
+                          <a href="">
+                              <img src="images/blog/03.jpg" alt="">
+                          </a>
+                      </div>
+                      <div class="blog_details_short">
+                          <div class="date">24 Feb 19</div>
+                          <h2>
+                              <a href="">Our awesome photography</a>
+                          </h2>
+                          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+                      </div>
+                      <div class="like_comment text-center row mx-0">
+                          <div class="col-6">
+                              <i class="far fa-heart"></i>
+                              <span>10 Likes</span>
+                          </div>
+                          <div class="col-6">
+                              <i class="far fa-comment"></i>
+                              <span>15 Comments</span>
+                          </div>
+                      </div>
+                  </div>
+              </div>
+          </div>
+      </div>
+  </section>
+  <!-- blog part end -->
+
+  <!-- hire part start -->
+  <section class="hire">
+      <div class="container">
+          <div class="section_title text-center">
+              <h2>Hire a Photographer</h2>
+          </div>
+          <div class="row justify-content-center">
+              <div class="col-md-8">
+                  <a data-fancybox href="https://www.youtube.com/watch?v=_sI_Ps7JSEk">
+                      <div class="hire_video">
+                          <img src="images/hire_thumb.jpg" alt="">
+                          <img src="images/play_white.png" class="play_icon" alt="">
+                      </div>
+                  </a>
+              </div>
+          </div>
+      </div>
+  </section>
+  <!-- hire part end -->
+
+  <!-- team part start -->
+  <section class="team">
+      <div class="container">
+          <div class="section_title mb-60 text-center">
+              <h2>Our Team</h2>
+          </div>
+          <div class="row justify-content-around">
+              <div class="col-md-3">
+                  <div class="client_details text-center">
+                      <div class="client_image">
+                          <span class="top_left"></span>
+                          <span class="top_right"></span>
+                          <img src="images/team/client.png" alt="">
+                          <div class="team_contact">
+                              <a href=""><i class="fab fa-facebook-f"></i></a>
+                              <a href=""><i class="fab fa-facebook-messenger"></i></a>
+                              <a href=""><i class="fab fa-twitter"></i></a>
+                              <a href=""><i class="fas fa-globe"></i></a>
+                          </div>
+                      </div>
+                      <h2>Habib Khan</h2>
+                      <p>Web Developer</p>
+                  </div>
+              </div>
+              <div class="col-md-3">
+                  <div class="client_details text-center">
+                      <div class="client_image">
+                          <span class="top_left"></span>
+                          <span class="top_right"></span>
+                          <img src="images/team/client.png" alt="">
+                          <div class="team_contact">
+                              <a href=""><i class="fab fa-facebook-f"></i></a>
+                              <a href=""><i class="fab fa-facebook-messenger"></i></a>
+                              <a href=""><i class="fab fa-twitter"></i></a>
+                              <a href=""><i class="fas fa-globe"></i></a>
+                          </div>
+                      </div>
+                      <h2>Habib Khan</h2>
+                      <p>Web Developer</p>
+                  </div>
+              </div>
+              <div class="col-md-3">
+                  <div class="client_details  text-center">
+                      <div class="client_image">
+                          <span class="top_left"></span>
+                          <span class="top_right"></span>
+                          <img src="images/team/client.png" alt="">
+                          <div class="team_contact">
+                              <a href=""><i class="fab fa-facebook-f"></i></a>
+                              <a href=""><i class="fab fa-facebook-messenger"></i></a>
+                              <a href=""><i class="fab fa-twitter"></i></a>
+                              <a href=""><i class="fas fa-globe"></i></a>
+                          </div>
+                      </div>
+                      <h2>Habib Khan</h2>
+                      <p>Web Developer</p>
+                  </div>
+              </div>
+          </div>
+      </div>
+  </section>
+  <!-- team part end -->
+
+  <!-- footer contact part start -->
+  <footer>
+      <div class="container">
+          <div class="row">
+              <div class="col-md-5">
+                  <div class="footer_about">
+                      <img src="images/logo.png" alt="">
+                      <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aliquid culpa facere ipsam minima, nobis obcaecati omnis quaerat tempora ut voluptates. Accusamus ad hic nulla odio quisquam. Dolorum fuga laborum recusandae?</p>
+                  </div>
+              </div>
+              <div class="col-md-3">
+                  <div class="useful_link">
+                      <h2>Important Links</h2>
+                      <ul>
+                          <li><a href="">About Us</a></li>
+                          <li><a href="">Our Gallery</a></li>
+                          <li><a href="">Visit Our Blog</a></li>
+                          <li><a href="">Contact Us</a></li>
+                      </ul>
+                  </div>
+              </div>
+              <div class="col-md-4">
+                  <div class="contact">
+                      <h2>Contact Info</h2>
+                        <p>Office: Shabagh, University of Dhaka</p>
+                        <p>Phone: 01770496249, 01630297940</p>
+                        <p>E-mail: chobituli@gmail.com</p>
+                        <a href=""><i class="fab ml-0 fa-facebook-f"></i></a>
+                        <a href=""><i class="fab fa-twitter"></i></a>
+                        <a href=""><i class="fab fa-youtube"></i></a>
+                        <a href=""><i class="fab fa-facebook-messenger"></i></a>
+                  </div>
+              </div>
+          </div>
+      </div>
+  </footer>
+  <!-- footer contact part end -->
+
+  <!-- copyright text part start -->
+  <div class="copyright">
+      <p>&copy; 2019 All right reserved by Chobituli.com</p>
+  </div>
+  <!-- copyright text part end -->
+
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   <!-- jQuery Library -->
+    <script src="js/jquery-1.12.4.min.js"></script>
+    
+    <!-- Bootstrap js -->
+    <script src="js/bootstrap.min.js"></script>
+
+    <!-- Slider -->
+    <script src="plugins/Owl_carousel/owl.carousel.min.js"></script>
+    <script src="js/slick.min.js"></script>
+
+    <!-- Animated headline -->
+    <script src="plugins/animatedheadline/js/main.js"></script>
+
+    <!-- Fancybox headline -->
+    <script src="plugins/fancybox/fancybox.min.js"></script>
+
+    <!-- Mains Custom js -->
+    <script src="js/custom.js"></script>
+  </body>
+</html>

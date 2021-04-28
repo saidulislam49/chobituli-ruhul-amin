@@ -1,0 +1,191 @@
+
+/*=================== registration form part start ==================*/
+.registration{
+    background-color: #1e1e1e;
+    padding: 60px 0;
+}
+input[type=file]{
+    height: 100%;
+}
+h2.step_title{
+    text-align: center;
+    color: #000;
+    font-weight: 400;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 30px;
+    margin-bottom: 50px;
+    padding: 10px 0;
+    background-color: #ff7200;
+    box-shadow: 0 12px 10px -6px black;
+}
+.form .form-group{
+    margin-bottom: 30px;
+}
+.form span.to,
+.form label{
+    color: #ff7200;
+    font-family: 'Playfair Display', serif;
+    font-weight: 700;
+    font-size: 18px;
+}
+.form textarea,
+.select2-container--default .select2-selection--multiple,
+.form select,
+.form input{
+    background-color: transparent;
+    border-radius: 0;
+    border: 0;
+    border-bottom: 1px solid #444;
+    font-size: 16px;
+    font-family: 'Playfair Display', serif;
+    color: #ff7200;
+}
+
+.form textarea:focus,
+.select2-container--default.select2-container--focus .select2-selection--multiple,
+.form select:focus,
+.form input:focus{
+    background-color: transparent;
+    outline: 0;
+    border: 0;
+    border-bottom: 1px solid #ff7200;
+    box-shadow: none;
+    color: #ff7200;
+}
+
+/* select 2 start */
+.select2-container--default .select2-selection--multiple .select2-selection__choice {
+    background-color: transparent;
+    border: 1px solid #ff7200;
+    border-radius: 0;
+}
+.select2-container--default .select2-selection--single {
+    background-color: transparent;
+    border: 0;
+    border-radius: 0;
+    border-bottom: 1px solid #ff7200;
+}
+.select2-selection.select2-selection--single:focus {
+    outline: 0;
+}
+.select2-container--default .select2-selection--single .select2-selection__rendered {
+    color: #ff7200;
+    font-family: 'Playfair Display', serif;
+}
+.select2-hidden-accessible{
+    /*width: 100% !important;*/
+}
+.select2-container--default li {
+    background: black;
+    color: #ff7200;
+}
+.select2-container--default .select2-selection--multiple .select2-selection__choice__remove {
+    color: #ff7200;
+}
+.select2-container--default li.select2-results__option[aria-selected="true"] {
+    background-color: #fff !important;
+    color: #000 !important;
+}
+.select2-container--default li.select2-results__option--highlighted[aria-selected] {
+    background-color: #f61 !important;
+    color: black !important;
+}
+.select2-search.select2-search--inline {
+    width: 0;
+}
+/* select 2 end */
+.form input:focus::placeholder{
+    color: #ff7200;
+}
+.form option{
+    background-color: #000;
+    padding: 10px ;
+}
+.form_button{
+    border-radius: 0;
+    background-color: transparent;
+    border: 1px solid #ff7200;
+    color: #ff7200;
+    font-size: 18px;
+    text-transform: uppercase;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 500;
+    padding: 7px 20px 5px;
+    display: inline-block;
+    transition: .5s;
+}
+.form_button:hover{
+    color: #000;
+    background-color: #ff7200;
+}
+p.notice{
+    font-family: 'Playfair Display', serif;
+    font-size: 16px;
+    color: #ff7200;
+}
+
+
+/* radio field */
+
+.radio {
+    position: relative;
+    display: inline-block;
+    margin-right: 20px;
+}
+
+.radio input[type="radio"] {
+    vertical-align: middle;
+    opacity: 0;
+}
+
+.radio label {
+    vertical-align: middle;
+    cursor: pointer;
+}
+
+.radio input[type="radio"] + label:before {
+    content: '';
+    display: inline-block;
+    width: 20px;
+    height: 20px;
+    margin: -3px 5px 0 -15px;
+    vertical-align: middle;
+    font-size: 14px;
+    font-weight: 900;
+    font-family: "Font Awesome 5 Free";
+    line-height: 19px;
+    text-align: center;
+    border: 1px solid rgba(255,255,255,.5);
+    background: rgba(0,0,0,.25);
+}
+
+.radio input[type="radio"] + label:before {
+    border-radius: 50%;
+}
+
+.radio input[type="radio"]:hover + label:before {
+    content: '\f111';
+    font-size: 9px;
+    color: rgba(255,255,255,.4);
+}
+
+.radio input[type="radio"]:checked + label:before {
+    content: '\f111';
+    font-size: 9px;
+    color: rgba(255,255,255,.8);
+}
+
+/*=================== registration form part end ==================*/
+
+/*
+
+
+font-family: 'Playfair Display', serif;
+
+
+
+
+
+
+
+*/
